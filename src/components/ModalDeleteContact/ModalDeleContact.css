@@ -1,0 +1,53 @@
+.container-modal-trash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-modal-trash>p {
+    font-size: 16px;
+
+    margin-top: 10px;
+}
+
+.container-modal-trash>img {
+    position: relative;
+    top: -15px;
+    left: 51%;
+
+    cursor: pointer;
+}
+
+.container-modal-trash button:first-of-type {
+    all: unset;
+
+    margin-top: 30px;
+    width: 250px;
+    height: 40px;
+
+    background-color: #04C45C;
+    color: white;
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.container-modal-trash button:last-of-type {
+    all: unset;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 40px;
+
+    background-color: #fb0616c2;
+    color: white;
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.container-modal-trash>button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

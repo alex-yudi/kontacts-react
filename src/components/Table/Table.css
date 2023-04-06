@@ -1,0 +1,42 @@
+table {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+
+th,
+td {
+    text-align: center;
+}
+
+
+thead tr,
+tbody tr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 46px;
+    width: 100%;
+}
+
+thead tr {
+    background-color: #F4F0F0;
+}
+
+tbody tr {
+    margin-top: 26px;
+}
+
+thead>tr>th,
+tbody>tr>td {
+    width: 100%;
+}
+
+.edit-icons img {
+    margin: 0 10px;
+
+    cursor: pointer;
+}
