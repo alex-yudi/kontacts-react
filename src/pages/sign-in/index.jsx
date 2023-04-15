@@ -28,6 +28,8 @@ export default function SignIn() {
         }
     }
 
+    //  const [userToVerify, setUserToVerify] = useState({ email: '', senha: '' })
+
     const handleOnChange = ({ target }) => {
         setMessageAlert('')
         setUserToVerify({ ...userToVerify, [target.name]: target.value })
